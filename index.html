@@ -3,14 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My HTML Projects</title>
+    <title>Kappa Algorithm Interactive Plots</title>
+    <style>
+        /* Basic reset and font styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 15px 0;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .card a {
+            text-decoration: none;
+            color: #0073e6;
+            font-size: 1.2rem;
+        }
+        .card p {
+            margin-top: 10px;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-    <h1>My HTML Projects</h1>
-    <ul>
-        <li><a href="kappa_visualize.html">Plot 1</a></li>
-        <li><a href="kappa_weight.html">Plot 2</a></li>
-        <!-- Add more links as needed -->
-    </ul>
+    <div class="container">
+        <h1>Kappa Algorithm Interactive Plots</h1>
+        <div class="card">
+            <a href="kappa_visualize.html">Visualize Kappa Algorithm</a>
+            <p>Explore interactive visualizations of the Kappa algorithm.</p>
+        </div>
+        <div class="card">
+            <a href="kappa_weight.html">Visualize Kappa Weighting Function</a>
+            <p>Dive into the weighting function of the Kappa algorithm with detailed plots.</p>
+        </div>
+        <!-- Add more cards as needed -->
+    </div>
 </body>
 </html>
